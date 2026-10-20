@@ -21,11 +21,5 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
-    - name: Build APK
-      run: gradle assembleDebug
-
-    - name: Upload APK
-      uses: actions/upload-artifact@v4
-      with:
-        name: Khalil-TV-APK
-        path: app/build/outputs/apk/debug/app-debug.apk
+    - name: Build APK with Stacktrace
+      run: gradle assembleDebug --stacktrace --info
