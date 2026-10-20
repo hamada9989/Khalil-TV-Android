@@ -1,1 +1,48 @@
-
+{
+  "project_info": {
+    "project_number": "987735972652",
+    "project_id": "khalil-tv-f6c1a",
+    "storage_bucket": "khalil-tv-f6c1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987735972652:android:eff2d29ec7c38277862a89",
+        "android_client_info": {
+          "package_name": "com.aeriotv.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqheN5l5UggXHP-DmI7rVFtkWXXesXZq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987735972652:android:6ecab80224abe430862a89",
+        "android_client_info": {
+          "package_name": "com.khaliltv.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqheN5l5UggXHP-DmI7rVFtkWXXesXZq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
